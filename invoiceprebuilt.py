@@ -11,7 +11,7 @@ invoicefile= ### write the filename
 with open(invoicefile, "rb") as fd:
     invoice = fd.read()
     
-poller = form_recognizer_client.begin_recognize_invoices(invoice, include_field_elements =True, raw_response_hook =callBack)
+poller = form_recognizer_client.begin_recognize_invoices(invoice, include_field_elements =True)
 result = poller.result()
 
 pageNum=result[0].page_range.last_page_number
