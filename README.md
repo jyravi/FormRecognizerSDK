@@ -1,6 +1,6 @@
 # FormRecognizerSDK
 
-The codes given here are only samples and should not to be used as is in production scenario.
+The codes given here are only **samples** and should **not** to be used as is in **production** scenario.
 
 invoiceprebuilt.py : OCR extrcations and tables extractions from SDK
 
